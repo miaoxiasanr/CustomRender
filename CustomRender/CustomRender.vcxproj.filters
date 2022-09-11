@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{3e13c199-ca35-4fb1-a311-f3a9d630a120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fragmentshader">
+      <UniqueIdentifier>{edba33bd-00a1-4cf7-8a58-8c53b28f0184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mainrender">
+      <UniqueIdentifier>{c6803249-af62-4b2a-abfe-44c681390803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\camera">
+      <UniqueIdentifier>{5adf6e72-bbb0-4540-a90c-95e1420cd5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\config">
+      <UniqueIdentifier>{2cd78f67-ed54-4efa-a34f-a9edd0b31fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{d8dd9a4c-001d-4b80-9aa6-7df9c687fcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texture">
+      <UniqueIdentifier>{21edcd3b-e9a1-494a-a81f-9c605906ad1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texture\vertexshader">
+      <UniqueIdentifier>{846ca533-f7b2-4233-b333-0d17de6f79fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fragmentshader">
+      <UniqueIdentifier>{15c2e8f2-4526-4091-baf6-a4c57ce9d38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{3e49b500-1ea9-4101-aea5-f975c2cde60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{5a77583a-f1ed-4c25-be7b-91fc8ea2104f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mainrender">
+      <UniqueIdentifier>{90148ac3-205c-472c-bf39-18784e24d1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vertexshader">
+      <UniqueIdentifier>{7d45871f-fcae-41a0-a551-76118037db62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\texture">
+      <UniqueIdentifier>{28edafe4-260c-41e4-b682-f08a7f1d22fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camera">
+      <UniqueIdentifier>{22e81c39-a935-4387-ae80-73830ec4a614}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="CustomRender.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="CustomRender.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blinn_PhongfsShader.cpp">
+      <Filter>Source Files\fragmentshader</Filter>
+    </ClCompile>
+    <ClCompile Include="FragmentShader.cpp">
+      <Filter>Source Files\fragmentshader</Filter>
+    </ClCompile>
+    <ClCompile Include="LambertfsShader.cpp">
+      <Filter>Source Files\fragmentshader</Filter>
+    </ClCompile>
+    <ClCompile Include="PhongfsShader.cpp">
+      <Filter>Source Files\fragmentshader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Source Files\vertexshader</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomColor.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMath.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMatrix.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomVector.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomVertex.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomModel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadModel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomRender.cpp">
+      <Filter>Source Files\mainrender</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageInstance.cpp">
+      <Filter>Source Files\mainrender</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageBuffer.cpp">
+      <Filter>Source Files\mainrender</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderWidget.cpp">
+      <Filter>Source Files\mainrender</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTransform.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTexture.cpp">
+      <Filter>Source Files\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCamera.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="RenderWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Blinn_PhongfsShader.h">
+      <Filter>Header Files\fragmentshader</Filter>
+    </ClInclude>
+    <ClInclude Include="FragmentShader.h">
+      <Filter>Header Files\fragmentshader</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageBuffer.h">
+      <Filter>Header Files\mainrender</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageInstance.h">
+      <Filter>Header Files\mainrender</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Header Files\Texture\vertexshader</Filter>
+    </ClInclude>
+    <ClInclude Include="PhongfsShader.h">
+      <Filter>Header Files\fragmentshader</Filter>
+    </ClInclude>
+    <ClInclude Include="LambertfsShader.h">
+      <Filter>Header Files\fragmentshader</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMath.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMatrix.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomTransform.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomVector.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomVertex.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCamera.h">
+      <Filter>Header Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure.h">
+      <Filter>Header Files\config</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadModel.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomModel.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomTexture.h">
+      <Filter>Header Files\Texture\vertexshader</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomColor.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="RenderWidget.h">
+      <Filter>Header Files\mainrender</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomRender.h">
+      <Filter>Header Files\mainrender</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
