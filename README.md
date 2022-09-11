@@ -14,7 +14,7 @@ CostomRender基于C++实现的软光栅化渲染器，主要是用CPU模拟了�
 1. PBR-BRDF 
 2. 抗锯齿(SSAA,MSAA)
 3. 延迟光照
-4. 性能优化(多线程，SIMD)
+4. 性能优化
 ### Display
 
 #####  线框模型
