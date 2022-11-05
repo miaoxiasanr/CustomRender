@@ -8,13 +8,21 @@ CostomRender基于C++实现的软光栅化渲染器，主要是用CPU模拟了�
 2. 裁剪(逐边裁剪法)
 3. 光栅化
 4. 材质映射
-5. 光照模型(lambert model,phong model,blinn_phong model)
+5. 基本的光照模型(lambert model,phong model,blinn_phong model)
 6. 深度测试
 ### 待实现的功能
 1. PBR-BRDF 
 2. 抗锯齿(SSAA,MSAA)
 3. 延迟光照
 4. 性能优化
+5. 基本的图形创建与渲染(平面，圆，球，立方体，环，圆锥，圆柱，半球，管道)
+6. 基本的图形创建与渲染支持(OBJ,FBX)
+7. 基本的骨骼动画计算和渲染
+8. 基本的地形渲染和高度判定
+9. 基本的屏幕后处理(灰图，模糊，马赛克，BLOOM)
+10. 基本的摄像机处理(拉进拉远，旋转，平移)
+11. 基本的RenderTarget摄像机和深度摄像机，支持深度图和一些镜面效果
+12. 基本的可组装式代码生成Shader
 ### Display
 
 #####  线框模型
